@@ -1,0 +1,22 @@
+phone_letters =[1,2,3,4,5,6,7,8,9,0]
+phone_letters[0]=""
+phone_letters[1]="ABC"
+phone_letters[2]="DEF"
+phone_letters[3]="GHI"
+phone_letters[4]="JKL"
+phone_letters[5]="MNO"
+phone_letters[6]="PQRS"
+phone_letters[7]="TUV"
+phone_letters[8]="WXYZ"
+phone_letters[9]=" "
+print (phone_letters)
+def let_to_num(letter):
+    key =0
+    while key <10:
+        if letter in phone_letters[key]:
+            return key 
+        else: 
+            key +=1
+    return "not found"
+x=(input("Enter a space or charcter or empty string:").upper())
+let_to_num(x)
