@@ -1,0 +1,6 @@
+# [ ] Using cities from the example above iterate throught the list using "for"/"in"
+# [ ] Print only cities starting with "m"
+cities=["bombay","manglore","chennai","luknow","kolkata","patna","delhi","madurai","madagascar"]
+for city in cities:
+    if city[0]=="m":
+        print (city)
