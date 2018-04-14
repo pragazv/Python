@@ -1,0 +1,19 @@
+#check a list for a paint color request and print status of color "found"/"not found"
+
+   # create list, paint_colors, with 5+ colors
+   # get user input of string:color_request
+   # iterate through each color in paint_colors to check for a match with color_request
+
+# [ ] complete paint stock
+
+
+paint_colors = ["Red","pink","Orange","Yellow","Purple","Green","Blue","Brown"]
+color_req = input ("enter a color name:").lower()
+for compare in paint_colors:
+    compare = compare.lower()
+    if compare in color_req:
+        print ("found")
+        break
+    else:
+        print ("not found")
+        break
