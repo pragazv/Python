@@ -1,0 +1,10 @@
+# [ ] Using cities, from the example in previous page. iterate through the list using "for"/"in"
+cities1 = ["New York", "Shanghai", "Munich", "Tokyo", "Dubai", "Mexico City", "São Paulo", "Hyderabad"]
+# [ ] sort into lists with "A" in the city name and without "A" in the name: a_city & no_a_city
+temp=""
+for city1 in cities1:
+    temp = city1.find("a")
+    if temp>0:
+        print ("a_city:",city1)
+    else:
+        print ("no_a_city:",city1)
