@@ -1,0 +1,8 @@
+spell_list = ["Tuesday", "Wednesday", "February", "November", "Annual", "Calendar", "Solstice"]
+spell_list.reverse()
+print (spell_list)
+j1=0
+for i in spell_list:
+    j1= len(i)
+    if j1>=8:
+        print (i+" is a word contains 8 letters or more")
